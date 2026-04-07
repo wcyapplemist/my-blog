@@ -77,23 +77,23 @@ const mockBooks: BookEntry[] = [
   },
   {
     id: 2,
-    title: "Book 2",
-    author: "Author 2",
-    coverImage: "https://picsum.photos/seed/book2/480/640",
-    trickScore: 1,
-    plotScore: 2.5,
-    characterScore: 0.5,
-    notes: "",
+    title: "Like a Headless Thing That Curses",
+    author: "Shinzo Mitsuda",
+    coverImage: "/images/books/book2.jpg",
+    trickScore: 3,
+    plotScore: 3,
+    characterScore: 2.5,
+    notes: "The absolute pinnacle of traditional Honkaku mystery, featuring a flawlessly crafted atmosphere of horror and suspense! While the Genya Tojo series has never focused much on character development, the sheer brilliance of its tricks and prose makes it easily stand on par with any perfect-score masterpiece.",
   },
   {
     id: 3,
-    title: "Book 3",
-    author: "Author 3",
-    coverImage: "https://picsum.photos/seed/book3/480/640",
+    title: "The Tokyo Zodiac Murders",
+    author: "Soji Shimada",
+    coverImage: "/images/books/book3.jpg",
     trickScore: 3,
-    plotScore: 0.5,
-    characterScore: 2,
-    notes: "",
+    plotScore: 2,
+    characterScore: 2.5,
+    notes: "The cornerstone of the Neo-Honkaku mystery, featuring an unprecedented and absolute stroke of genius in its trick! It's a pity that Shimada's prose and narrative crafting at that stage were not quite polished yet. For many, this novel has become an insurmountable peak for a lifetime—including the author himself...",
   },
 ];
 
@@ -105,19 +105,23 @@ export default function BookNotesGallery() {
     <>
       <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-4">
         {mockBooks.map((book) => (
-          <button
-            key={book.id}
-            onClick={() => setSelectedBook(book)}
-            className="group aspect-[3/4] overflow-hidden rounded-3xl shadow-md transition-all duration-300 hover:scale-105 hover:shadow-xl"
-          >
-            <Image
-              src={book.coverImage}
-              alt={book.title}
-              width={480}
-              height={640}
-              className="h-full w-full object-cover"
-            />
-          </button>
+          <div key={book.id} className="flex flex-col items-center">
+            <button
+              onClick={() => setSelectedBook(book)}
+              className="group aspect-[3/4] w-full overflow-hidden rounded-3xl shadow-md transition-all duration-300 hover:scale-105 hover:shadow-xl"
+            >
+              <Image
+                src={book.coverImage}
+                alt={book.title}
+                width={480}
+                height={640}
+                className="h-full w-full object-cover"
+              />
+            </button>
+            <span className="mt-2 w-full truncate text-center text-xs italic text-muted-foreground sm:text-sm">
+              {book.title}
+            </span>
+          </div>
         ))}
       </div>
 
