@@ -1,7 +1,22 @@
+import { getFoodData } from "@/lib/food-data";
+import FoodGallery from "@/components/FoodGallery";
+
 export default function FavoriteFood() {
+  const foods = getFoodData();
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center">
-      <main className="flex flex-1 w-full max-w-2xl flex-col px-6 py-24" />
+    <div className="flex flex-col flex-1">
+      <main className="flex w-full max-w-2xl flex-col px-6 py-12">
+        <h1 className="text-3xl font-bold tracking-tight text-zinc-950 dark:text-zinc-50">
+          Favorite Food
+        </h1>
+        <p className="mt-3 text-base leading-7 text-zinc-600 dark:text-zinc-400">
+          A curated collection of dishes I love from around the world.
+        </p>
+        <div className="mt-8">
+          <FoodGallery foods={foods} />
+        </div>
+      </main>
     </div>
   );
 }

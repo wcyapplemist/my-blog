@@ -1,0 +1,18 @@
+Id: 3
+Name: すき焼き
+English Name: Sukiyaki
+Country: Japan
+Ingredients:
+- Thinly sliced beef
+- Shirataki noodles
+- Shiitake mushrooms
+- Grilled tofu
+- Negi (Japanese leek)
+- Shungiku (chrysanthemum greens)
+- Warishita (soy-mirin-sake broth)
+- Raw egg (for dipping)
+Notes: Sukiyaki is the elegant cousin of hot pot — rich, sweet, and deeply comforting. Thin slices of premium beef are slowly simmered in a warishita broth made of soy sauce, sugar, and mirin alongside vegetables and tofu. The tradition of dipping the cooked beef into a bowl of raw egg may raise eyebrows abroad, but it creates an impossibly silky, custard-like coating that elevates every bite.
+Recommended Restaurants:
+- Imahan | Asakusa, Tokyo
+- Matsuzaka | Ginza, Tokyo
+Image Name: sukiyaki

@@ -1,0 +1,16 @@
+Id: 1
+Name: 寿司
+English Name: Sushi
+Country: Japan
+Ingredients:
+- Shari (sushi rice)
+- Nori (seaweed)
+- Fresh fish (tuna, salmon, etc.)
+- Wasabi
+- Soy sauce
+- Pickled ginger
+Notes: Sushi is the quintessential Japanese culinary art — a harmonious balance of vinegared rice and the freshest seafood. Each piece is crafted with decades of tradition, where the itamae (chef) considers temperature, texture, and seasonality in every single bite. From the delicate fattiness of ōtoro to the clean snap of ika, sushi is as much an experience as it is a meal.
+Recommended Restaurants:
+- Sukiyabashi Jiro | Ginza, Tokyo
+- Saito | Roppongi, Tokyo
+Image Name: sushi

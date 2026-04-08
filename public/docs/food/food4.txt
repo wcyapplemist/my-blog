@@ -1,0 +1,17 @@
+Id: 4
+Name: 海南鸡饭
+English Name: Hainanese Chicken Rice
+Country: Singapore
+Ingredients:
+- Poached chicken
+- Chicken-fat rice
+- Chili sauce (sambal)
+- Ginger paste
+- Dark soy sauce
+- Cucumber
+- Pandan leaves
+Notes: Singapore's unofficial national dish is a masterclass in simplicity. Silky poached chicken is served over rice cooked in rich chicken fat and pandan-infused broth, accompanied by three essential condiments: fiery chili sauce, pungent ginger paste, and sweet dark soy sauce. What looks plain on the surface hides layers of painstaking preparation — the result is one of the most satisfying meals on earth.
+Recommended Restaurants:
+- Tian Tian Hainanese Chicken Rice | Maxwell Food Centre, Singapore
+- Boon Tong Kiat | Balestier, Singapore
+Image Name: hainanese-chicken-rice

@@ -1,0 +1,17 @@
+Id: 2
+Name: 重庆火锅
+English Name: Chongqing Hot Pot
+Country: China
+Ingredients:
+- Beef tripe
+- Thinly sliced beef
+- Lotus root
+- Tofu
+- Enoki mushrooms
+- Sichuan peppercorns
+- Chili oil base
+Notes: Hot pot is more than food — it's a communal ritual. A bubbling cauldron of rich, numbingly spicy broth sits at the center of the table, and diners cook raw ingredients to their liking in real time. The Sichuan mala version is famous worldwide for its addictive combination of chili heat and tongue-tingling Sichuan peppercorns. It's loud, messy, and absolutely unforgettable.
+Recommended Restaurants:
+- Haidilao | Various locations worldwide
+- Shu Daxia | Chengdu, Sichuan
+Image Name: chongqing-hot-pot
